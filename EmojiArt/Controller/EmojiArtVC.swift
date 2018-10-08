@@ -8,7 +8,10 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class EmojiArtVC: UIViewController {
+
+    @IBOutlet private weak var dropView: UIView!
+    @IBOutlet private weak var emojiArtView: UIView!
 
     override func viewDidLoad() {
         super.viewDidLoad()
