@@ -13,6 +13,8 @@
 		A87BD581216B017A00328E61 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A87BD580216B017A00328E61 /* Assets.xcassets */; };
 		A87BD584216B017A00328E61 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A87BD582216B017A00328E61 /* LaunchScreen.storyboard */; };
 		A87BD590216B04B000328E61 /* EmojiArtView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A87BD58F216B04B000328E61 /* EmojiArtView.swift */; };
+		A87BD592216F002600328E61 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = A87BD591216F002600328E61 /* Utilities.swift */; };
+		A87BD59421704D7400328E61 /* EmojiArtTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A87BD59321704D7400328E61 /* EmojiArtTableVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		A87BD583216B017A00328E61 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A87BD585216B017A00328E61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A87BD58F216B04B000328E61 /* EmojiArtView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiArtView.swift; sourceTree = "<group>"; };
+		A87BD591216F002600328E61 /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		A87BD59321704D7400328E61 /* EmojiArtTableVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiArtTableVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +83,7 @@
 			isa = PBXGroup;
 			children = (
 				A87BD57B216B017200328E61 /* EmojiArtVC.swift */,
+				A87BD59321704D7400328E61 /* EmojiArtTableVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -95,6 +100,7 @@
 		A87BD58E216B01FE00328E61 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				A87BD591216F002600328E61 /* Utilities.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -172,7 +178,9 @@
 			files = (
 				A87BD57C216B017200328E61 /* EmojiArtVC.swift in Sources */,
 				A87BD57A216B017200328E61 /* AppDelegate.swift in Sources */,
+				A87BD592216F002600328E61 /* Utilities.swift in Sources */,
 				A87BD590216B04B000328E61 /* EmojiArtView.swift in Sources */,
+				A87BD59421704D7400328E61 /* EmojiArtTableVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
